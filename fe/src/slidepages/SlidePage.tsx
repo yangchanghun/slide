@@ -6,7 +6,7 @@ export const SlidePage = () => {
     <div className="flex min-h-screen items-center justify-center text-lg">
       <button
         onClick={() => {
-          navigate("/slides/1");
+          navigate("/slider/1");
         }}
       >
         합정초등학교
