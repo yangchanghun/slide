@@ -11,6 +11,13 @@ export const SlidePage = () => {
       >
         합정초등학교
       </button>
+      <button
+        onClick={() => {
+          navigate("/slider/2");
+        }}
+      >
+        수정초등학교
+      </button>
     </div>
   );
 };
